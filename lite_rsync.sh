@@ -7,7 +7,7 @@ SRV=/Volumes/username/
 # From: https://www.cyberciti.biz/faq/howto-check-if-a-directory-exists-in-a-bash-shellscript/
 if [ ! -d "$SRV" ]
 then
-  open 'smb://username:*@192.168.1.2/uswrname'
+  open 'smb://username:*@192.168.1.2/username'
   # https://apple.stackexchange.com/questions/697/how-can-i-mount-an-smb-share-from-the-command-line
 else
   echo "Server share already mounted" >> $LOG # From: https://www.tecmint.com/echo-command-in-linux/
